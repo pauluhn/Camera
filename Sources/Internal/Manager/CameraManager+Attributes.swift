@@ -31,6 +31,6 @@ struct CameraManagerAttributes {
 
     var deviceOrientation: AVCaptureVideoOrientation = .portrait
     var frameOrientation: CGImagePropertyOrientation = .right
-    var orientationLocked: Bool = false
+    var orientationLocked: Bool = true
     var userBlockedScreenRotation: Bool = false
 }
